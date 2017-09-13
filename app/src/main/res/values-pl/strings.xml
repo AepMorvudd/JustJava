@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Just Java</string>
+    <string name="add_chocolate" translatable="false">Dodać posypkę czekoladową?</string>
+    <string name="cena" translatable="false">Podsumowanie</string>
+    <string name="chocolate">Czekolada</string>
+    <string name="cream">Bita śmietana</string>
+    <string name="imie">Imię</string>
+    <string name="mail_title">"Nowe zamówienie dla "</string>
+    <string name="max_toast">Maksymalne zamówienie to 10 filiżanek kawy</string>
+    <string name="min_toast">Minimalne zamówienie to 1 filiżanka kawy</string>
+    <string name="przycisk">Zamów</string>
+    <string name="qtity">"Ilość: "</string>
+    <string name="quantity">"Ilość "</string>
+    <string name="thanks">Dziękuję!</string>
+    <string name="toppings">Dodatki</string>
+    <string name="total">Suma: $</string>
+    <string name="whipped_cream">Dodać bitą śmietanę?</string>
+</resources>

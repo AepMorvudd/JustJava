@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.justjava.MainActivity">
+
+        <EditText
+            android:id="@+id/text_edit"
+            style="@style/text_input"
+            android:hint="@string/imie"
+            android:inputType="textCapWords"/>
+
+        <TextView
+            style="@style/quantity"
+            android:text="@string/toppings" />
+
+        <CheckBox
+            android:id="@+id/check_box_cream"
+            style="@style/box_style"
+            android:onClick="isChecked"
+            android:text="@string/cream" />
+
+        <CheckBox
+            android:id="@+id/check_box_chocolate"
+            style="@style/box_style"
+            android:onClick="isChecked"
+            android:text="@string/chocolate"/>
+
+        <TextView
+            style="@style/quantity"
+            android:text="@string/quantity" />
+
+        <LinearLayout
+            style="@style/RLstyle"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/przycisk_minus"
+                style="@style/plusminus"
+                android:onClick="decrease"
+                android:text="@string/minus" />
+
+            <TextView
+                android:id="@+id/quantity_text_view"
+                style="@style/number_quantity"
+                android:text="@string/zero" />
+
+            <Button
+                android:id="@+id/przycisk_plus"
+                style="@style/plusminus"
+                android:layout_marginLeft="@dimen/margin_8"
+                android:onClick="increase"
+                android:text="@string/plus" />
+
+        </LinearLayout>
+
+        <Button
+            style="@style/przycisk"
+            android:onClick="submitOrder"
+            android:text="@string/przycisk" />
+    </LinearLayout>
+</ScrollView>
